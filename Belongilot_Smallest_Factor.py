@@ -12,3 +12,4 @@ while True:
         for n2 in range(2, n1):
             if n1 % n2 == 0:
                 print("Smallest factor other than 1 for", n1,"is", n2)
+                break
